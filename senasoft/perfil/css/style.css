@@ -1,0 +1,206 @@
+
+
+html {
+    -webkit-text-size-adjust: 100%!important;
+    -ms-text-size-adjust: 100%!important;
+    text-size-adjust: 100%!important;
+    line-height: 1.4!important;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+:root{
+    --colprimario:#F0A500!important;
+    --colsecundario:#CF7500!important;
+
+}
+
+body {
+    color: #404040!important;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body,
+.seccion-perfil-usuario {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    flex-direction: column!important;
+    align-items: center!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-header {
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+    background: linear-gradient(var(--colprimario), transparent)!important;
+    margin-bottom: 1.25rem!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada {
+    display: block!important;
+    position: relative!important;
+    width: 85%!important;
+    background: linear-gradient(-100deg, var(--colprimario), var(--colsecundario))!important;
+    border-radius: 0 0 20px 20px!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
+    position: absolute!important;
+    top: 1rem!important;
+    right: 1rem!important;
+    border: 0!important;
+    border-radius: 8px!important;
+    padding: 12px 25px!important;
+    background-color: rgba(0, 0, 0, .5)!important;
+    color: #fff!important;
+    cursor: pointer!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
+    margin-right: 1rem!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar {
+    display: flex!important;
+    width: 180px!important;
+    height: 180px;
+    align-items: center!important;
+    justify-content: center!important;
+    border: 7px solid #FFFFFF!important;
+    background-color: #DFE5F2!important;
+    border-radius: 50%!important;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2)!important;
+    position: absolute!important;
+    bottom: -40px!important;
+    left: calc(50% - 90px)!important;
+    z-index: 1!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar img {
+    width: 100%!important;
+    position: relative!important;
+    border-radius: 50%!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute!important;
+    left: -2px!important;
+    top: -2px!important;
+    border: 0;
+    background-color: #fff!important;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2)!important;
+    width: 45px!important;
+    height: 45px;
+    border-radius: 50%!important;
+    cursor: pointer!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body {
+    width: 70%!important;
+    position: relative!important;
+    max-width: 750px!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .titulo {
+    display: block!important;
+    width: 100%!important;
+    font-size: 1.75em!important;
+    margin-bottom: 0.5rem!important;
+}
+
+
+.seccion-perfil-usuario .perfil-usuario-footer,
+.seccion-perfil-usuario .perfil-usuario-bio {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    padding: 1.5rem 2rem!important;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2)!important;
+    background-color: #fff!important;
+    border-radius: 15px!important;
+    width: 100%!important;
+}
+
+.seccion-perfil-usuario .perfil-usuario-bio {
+    margin-bottom: 1.25rem!important;
+    text-align: center!important;
+}
+
+.seccion-perfil-usuario .lista-datos {
+    width: 50%!important;
+    list-style: none!important;
+}
+
+.seccion-perfil-usuario .lista-datos li {
+    padding: 5px 0!important;
+}
+
+.seccion-perfil-usuario .lista-datos li>.icono {
+    margin-right: 1rem!important;
+    font-size: 1.2rem!important;
+    vertical-align: middle!important;
+}
+
+
+
+
+.seccion-perfil-usuario .boton-redes.instagram {
+    background: linear-gradient(90deg, #f7a52b, #e6a74a)!important;
+}
+
+/* adactacion a dispositivos */
+
+
+
+
+.btn1{
+    position: relative!important;
+    top: -25px!important;
+    left: 180px!important;
+    background-color: transparent!important;
+    color:#f7a52b !important;
+    border-color: transparent!important;
+}
+.btn2{
+    position: relative;
+}
+
+
+.btn-outline-warning {
+    color: var(--colsecundario);
+    border-color: var(--colprimario);
+}
+.btn-outline-warning:hover {
+    color: #000;
+    background-color: var(--colprimario);
+    border-color: var(--colprimario);
+}
+.btn-check:focus+.btn-outline-warning, .btn-outline-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--colprimario) / 50%);
+}
+
+a {
+    color: var(--colsecundario);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--colprimario);
+    text-decoration: none;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    font-style: italic;
+
+}
+.sours {
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+.seccion-perfil-usuario .perfil-usuario-portada {
+    height: 270px!important;
+}

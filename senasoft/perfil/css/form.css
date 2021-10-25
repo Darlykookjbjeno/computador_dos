@@ -1,0 +1,32 @@
+:root{
+    --colprimario:#F0A500!important;
+    --colsecundario:#CF7500!important;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--colsecundario);
+    border-color: var(--colprimario);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--colprimario);
+    border-color: var(--colsecundario);
+}
+span{
+    position: relative;
+    left: -85px;
+}
+.modal-title{
+    position: relative;
+    left:-50px;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: var(--colsecundario);
+    border-color: var(--colprimario);
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--colprimario) / 50%);
+}
